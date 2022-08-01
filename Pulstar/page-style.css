@@ -1,0 +1,130 @@
+.container {
+    width: 100%;
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Section__journal */
+.section__journal {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+}
+
+/* Centr */
+.journal__centr {
+    width: 64%;
+    margin-right: 15px;
+}
+
+.centr__title,
+.col__top {
+    margin-bottom: 25px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #3F3B3D;
+}
+
+.centr__post {
+    display: flex;
+    height: 266px;
+}
+
+
+.centr__photo {
+    height: 266px;
+    margin-right: 20px;   
+}
+
+.centr__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: #3F3B3D;
+}
+
+.author__centr {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+    color: #3F3B3D;
+}
+
+/* Right */
+.col__right {
+    width: 34%;
+}
+
+.col__top a {
+    text-decoration: none;
+    color: #3F3B3D;
+}
+
+.col__top a:hover {
+    color: red;
+}
+
+.right__item {
+    display: flex;   
+}
+
+.right__img {
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.right__date {
+    margin-bottom: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #5D6E67;
+}
+
+.right__text {
+    margin-bottom: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #3F3B3D;
+}
+
+.right__text a {
+    text-decoration: none;
+    color: #3F3B3D;
+    font-size: 16px;   
+}
+
+.right__text a:hover {
+    color: red;
+}
+/* Button */
+.right__new {
+    margin: 25px 25%;
+    padding: 10px 30px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    color: #3F3B3D;
+}
+
+.right__new:hover {
+    color: red;   
+}
